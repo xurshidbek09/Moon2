@@ -1,24 +1,28 @@
-/* barlow-regular - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap;
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/barlow-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/barlow-v13-latin-regular.woff2') format('woff2'); 
 }
-/* barlow-condensed-regular - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Barlow Condensed';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/barlow-condensed-v13-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/barlow-condensed-v13-latin-regular.woff2') format('woff2');
 }
-/* bellefair-regular - latin */
+
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-display: swap; 
   font-family: 'Bellefair';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('../fonts/bellefair-v15-latin-regular.woff2') format('woff2'); 
+}
+
+body{
+    font-family: "Barlow";
 }
