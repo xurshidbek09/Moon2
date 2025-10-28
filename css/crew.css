@@ -25,4 +25,28 @@
 
 body{
     font-family: "Barlow";
+    background-image: url("../images/zufar-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+.navbar{
+    backdrop-filter: blur(81.54845428466797px)
+}
+.containers{
+  width: 1200px;
+  margin: 0 auto;
+}
+.zufar-item1{
+   font-family: "Barlow Condensed";
+   font-weight: 400;
+}
+.zufar-left h1{
+  font-family: "Bellefair";
+  font-weight: 400;
+}
+
+
+.zufar-item{
+  font-family: "Barlow";  
+  font-weight: 400;
 }
